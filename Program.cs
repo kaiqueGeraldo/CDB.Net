@@ -1,4 +1,5 @@
-﻿do
+bool ReiniciarPrograma = true;
+while (ReiniciarPrograma)
 {
     double resultado = 0;
 
@@ -167,14 +168,13 @@
     }
 
     Console.WriteLine("Deseja reiniciar o programa? (S/N)");
-    string resposta = Console.ReadLine();
+    string reiniciarPrograma = Console.ReadLine();
 
-    if (resposta.ToUpper() != "S")
+    if (reiniciarPrograma.ToUpper() != "S")
     {
         Console.WriteLine("Encerrando o programa...");
         break;
     }
 
     Console.Clear();
-
-} while (true);
+}
