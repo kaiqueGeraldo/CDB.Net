@@ -71,8 +71,7 @@
                             return;
                     }
 
-                    Console.WriteLine($"Resultado: {input} = {resultado
-                        }");
+                    Console.WriteLine($"Resultado: {input} = {resultado}");
                 }
                 else
                 {
@@ -82,7 +81,6 @@
             else
             {
                 Console.WriteLine("Formato de entrada inválido. Use o formato: \"numero operador numero\".");
-                return;
             }
         }
 
